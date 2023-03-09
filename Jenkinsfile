@@ -6,7 +6,7 @@ pipeline{
    stages{
       stage("source"){
           steps{
-             git branch: 'dev' ,url:'https://github.com/tallahmad047/invento.git'
+             git branch: 'dev' ,url:'https://github.com/tallahmad047/demokube.git'
         }
       }
        stage ('Build') {
