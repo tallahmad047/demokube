@@ -35,7 +35,7 @@ pipeline{
                   stage('dockertag') {
                            steps {
                                                      // Build the Docker image
-                             bat 'docker tag tallahmad/nguith2022  tall/demokube:groupe1'
+                             bat 'docker tag tallahmad/kubernates  tall/demokube:groupe1'
                                     }
                                   }
 
